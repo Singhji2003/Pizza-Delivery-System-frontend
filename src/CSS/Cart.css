@@ -1,0 +1,57 @@
+.heading-cart h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.order-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+
+
+.cartEmpty h1 {
+    font-size: 1.3em;
+    margin-top: 3.8rem;
+}
+
+.cart-payment {
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.cart-payment table tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 5rem;
+    padding: 1rem;
+}
+
+.cart-payment table {
+    width: 70rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.cart-payment button{
+    width: 6rem;
+    height: 2rem;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 0.8em;
+}
+
+.no-item{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 500;
+}

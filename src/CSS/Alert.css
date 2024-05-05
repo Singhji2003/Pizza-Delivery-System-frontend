@@ -1,0 +1,28 @@
+.alertbox {
+    z-index: 999;
+    position: fixed;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    margin:  1rem;
+  }
+
+  #success{
+    background-color: green;
+  }
+  #error{
+    background-color: red;
+  }
+  
+  .animatealert {
+    top: 2rem;
+  }
+  
+  .alertbox p {
+    margin-left: 0.6rem;
+    margin-bottom: 0;
+  }

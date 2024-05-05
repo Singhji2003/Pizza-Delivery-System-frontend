@@ -1,0 +1,65 @@
+.carousel {
+  margin-top: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mySlides {
+  display: none;
+}
+
+.heading-home {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-home p {
+  font-size: 1.2em;
+}
+
+.heading-home button{
+  width: 12rem;
+  height: 3rem;
+  background-color: #0D6EFD;
+  color:  white;
+  cursor: pointer;
+  border: none;
+  font-size: 1.2em;
+}
+
+.rightmySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 24.6rem;
+}
+
+.rightslideshow-container {
+  max-width: 24.6rem;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}

@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    padding: 1.4rem 2rem;
+    background-color: #0D6EFD;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.left-navbar h2{
+    cursor: pointer;
+}
+.right-navbar ul a {
+    color: white;
+    margin: 0rem 2rem;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.right-navbar ul a i{
+    margin-right: 10px;
+}
+.right-navbar ul a:hover{
+    text-decoration: underline;
+}
+
+.right-navbar ul a button {
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.8em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.right-navbar ul a button:hover{
+    box-shadow: 0px 0px 8px white   ;
+}
